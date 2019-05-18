@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		570175A02290294C0080F194 /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5701759F2290294C0080F194 /* Artist.swift */; };
 		574A6571228DA0AF005D7479 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574A6570228DA0AF005D7479 /* AppDelegate.swift */; };
 		574A6573228DA0AF005D7479 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574A6572228DA0AF005D7479 /* ViewController.swift */; };
 		574A6576228DA0AF005D7479 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 574A6574228DA0AF005D7479 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5701759F2290294C0080F194 /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
 		574A656D228DA0AF005D7479 /* iTunesClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTunesClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		574A6570228DA0AF005D7479 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		574A6572228DA0AF005D7479 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +37,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5701759C229029070080F194 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5701759F2290294C0080F194 /* Artist.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5701759D2290290E0080F194 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5701759E229029150080F194 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		574A6564228DA0AF005D7479 = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +78,9 @@
 		574A656F228DA0AF005D7479 /* iTunesClient */ = {
 			isa = PBXGroup;
 			children = (
+				5701759E229029150080F194 /* Controller */,
+				5701759D2290290E0080F194 /* Views */,
+				5701759C229029070080F194 /* Models */,
 				574A6570228DA0AF005D7479 /* AppDelegate.swift */,
 				574A6572228DA0AF005D7479 /* ViewController.swift */,
 				574A6574228DA0AF005D7479 /* Main.storyboard */,
@@ -135,6 +162,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				570175A02290294C0080F194 /* Artist.swift in Sources */,
 				574A6573228DA0AF005D7479 /* ViewController.swift in Sources */,
 				574A6571228DA0AF005D7479 /* AppDelegate.swift in Sources */,
 			);
